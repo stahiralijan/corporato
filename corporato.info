@@ -1,0 +1,45 @@
+name = Corporato
+description = A corporate theme for drupal from <a href="http://tahirjan.com">Syed Tahir Ali Jan</a>.
+version=1.0
+core = 7.x
+engine = phptemplate
+
+stylesheets[all][] = css/styles.css
+
+regions[user_menu] = User Menu
+regions[main_menu] = Main Menu
+regions[content]   = Content
+regions[sidebar_left] = Left sidebar
+
+features[] = name
+features[] = main_menu
+features[] = logo
+
+settings[slide_1_url] = /drupal/sites/all/themes/custom/corporato/images/slide-1.jpg
+settings[slide_2_url] = /drupal/sites/all/themes/custom/corporato/images/slide-2.jpg
+settings[slide_3_url] = /drupal/sites/all/themes/custom/corporato/images/slide-3.jpg
+
+settings[telephone_number] = +1 32 555 777 666
+settings[fax_number] = +1 32 555 666 777
+settings[mailing_address] = 123 Av. 2nd St. Phony City.
+settings[email_address] = john.doe@example.com
+
+settings[twitter_url] = http://twitter.com/johndoe
+settings[facebook_url] = http://facebook.com/johndoe
+settings[linkedin_url] = http://linkedin.com/johndoe
+
+settings[features_item_1] = <div class="feature-item"><h2>Corporate Training</h2><p>Soft Skills Training</p><ul><li>Personal Development</li><li>Time Management</li><li>Stress Management</li><li>Communication Skills</li></ul><a href="#" class="readmore">Read More</a></div>
+settings[features_item_2] = <div class="feature-item"><h2>Public Training</h2><p>What is SAT?</p><p>The SAT and SAT Subject Tests are suite of tools designed to assess your academic readiness for college. These exams provide a path to opportunities, financial support</p><a href="#" class="readmore">Read More</a></div>
+settings[features_item_3] = <div class="feature-item"><h2>Our Promotions</h2><p>How do we train?</p><ul><li>We start with an explanation of test format, scoring and skipping strategies.</li><li>Next, students are taught how to read for the SAT and how to think for the</li></ul><a href="#" class="readmore">Read More</a></div>
+settings[features_item_4] = <div class="feature-item"><h2>Careers</h2><p>Soft Skills Training</p><ul><li>Personal Development</li><li>Time Management</li><li>Stress Management</li><li>Communication Skills</li></ul><a href="#" class="readmore">Read More</a></div>
+
+settings[quicklink_1_image_url] = /drupal/sites/all/themes/custom/corporato/images/find-your-way.gif
+settings[quicklink_1_text] = <h3>Find Your Way</h3><ul><li><a href="#">Home</a></li><li><a href="#">Site Map</a></li><li><a href="#">International Students</a></li><li><a href="#">About Collegeme</a></li><li><a href="#">Current Students</a></li><li><a href="#">Staff</a></li></ul>
+settings[quicklink_2_image_url] = /drupal/sites/all/themes/custom/corporato/images/help-and-support.gif
+settings[quicklink_2_text] = <h3>Help &amp; Support</h3><ul><li><a href="#">Academic Calendar</a></li><li><a href="#">Bookstore</a></li><li><a href="#">Colleges and Schools</a></li><li><a href="#">Courses</a></li><li><a href="#">Professional Programs</a></li><li><a href="#">Our Help Desk</a></li></ul>
+settings[quicklink_3_image_url] = /drupal/sites/all/themes/custom/corporato/images/quick-links.gif
+settings[quicklink_3_text] = <h3>Quick Links</h3><ul><li><a href="#">Directories</a></li><li><a href="#">Campus Notices</a></li><li><a href="#">Emergency Information</a></li></ul>
+settings[quicklink_4_image_url] = /drupal/sites/all/themes/custom/corporato/images/admissions.gif
+settings[quicklink_4_text] = <h3>Admission</h3><ul><li><a href="#">Business</a></li><li><a href="#">Financial Aid</a></li><li><a href="#">Graduate</a></li><li><a href="#">Law</a></li><li><a href="#">Undergraduate</a></li><li><a href="#">School</a></li></ul>
+
+settings[footer_text] = Powered by <b><a href="http://tahirjan.com">Syed Tahir Ali Jan</a></b>
